@@ -148,4 +148,4 @@ Issues and pull requests welcome. See `pyproject.toml` for dev tooling (ruff, my
 
 ## License
 
-MIT © Nagesh Yadav
+MIT
