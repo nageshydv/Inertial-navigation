@@ -68,6 +68,10 @@ class TestQuaternion:
         euler = Quaternion.to_euler(q)
         np.testing.assert_allclose(euler, [0, 0, 0], atol=1e-10)
 
+    def test_normalised_unit(self):
+        q = np.array([1.0, 0.0, 0.0, 0.0])
+        np.testing.assert_allclose(Quaternion.normalise(q), q)
+
 
 # ---------------------------------------------------------------------------
 # Dead reckoning tests
